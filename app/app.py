@@ -113,6 +113,7 @@ streaming_movies = st.selectbox(
 )
 
 contract = st.selectbox(
+    
     "Contract",
     ["Month-to-month", "One year", "Two year"],
     key="contract"
